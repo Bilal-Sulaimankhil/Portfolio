@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+/*CSS style*/
+body{
+  margin-top: 35px;
+    background-color: rgb(199, 199, 199);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+.left-side h1{
+color: rgb(22, 89, 233);
+font-size: 60px;
+margin-bottom: 0;
+margin-top: 60px;
+}
+.left-side p{
+    color: rgb(87, 84, 84);
+    font-size: 20px;
+}
+#form{
+    box-shadow: 0px 0px 2px 0px;
+    background-color: white;
+    padding: 40px 20px 20px;
+    border-radius: 4px;
+    min-width: 400px;
+}
+.form-group{
+    margin-bottom: 18px;
+}
+.control{
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 4px;
+    border: 1px solid rgb(64, 18, 18);
+    font-size: 16px;
+}
+#login{
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 125, 242);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 0px;
+    font-size: 16px;
+}
+#password-forgotten{
+   display: block; 
+   color: rgb(71, 101, 255);
+   text-align: center;
+  margin-top: 16px;
+ text-decoration:none
+}
+#new-account{
+    background-color: rgb(87, 245, 87);
+    padding: 10px 12px;
+    border: none;
+    border-radius: 4px;
+margin: 15px 105px;
+    font-size: 16px 
+}
+.last-line{
+    margin-left: 33px;
+}
+
+.fake-page
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 70px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}

@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.dropdown-item{
+    font-weight: bolder;
+}
+.power{
+        font-weight: bolder;
+        position: relative;
+        animation-name: Powercoders;
+        animation-duration: 15s;
+        }
+#profile{
+    height: 15rem;
+    border-radius: 13rem;
+}
+.bilal{
+    font-size: 3em;
+}
+#fullstack{
+    height: 9rem;
+    width: 20rem;
+    border-radius: 10rem;
+    margin-left: 50px;
+}
+.span{
+    color: red;
+}
+.design{
+    color: rgb(145, 180, 93);
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.cv{
+    text-decoration: none;
+    color: aliceblue;
+}
+#newdesign{
+    height:25rem;
+width: 20f;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.notebook{
+    height: 34rem;
+    width: 75rem;
+    margin-left: 60px;
+    
+
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#script-card{
+    margin-left: 5rem;
+}
+
+.card-img-top{
+
+    height: 17rem;
+    width: 29rem;
+  
+  
+}
+
+#bootstrap{
+   border-left: solid 5px rgb(237, 231, 231);
+}
+
+#SEO{
+    color: red;
+}
+
+#tips{
+height: 30rem;
+width:  60rem;
+}
+
+
+
+
+
+
+
+
+.vibrate-1{-webkit-animation:vibrate-1 .3s linear infinite both;animation:vibrate-1 .3s linear infinite both}
+
+@keyframes Powercoders {
+    0%   {color:red; left:0px; top:0px;}
+    25%  {color:rgb(23, 94, 149); left:200px; top:0px;}
+    50%   {color:red; left:0px; top:0px;}
+    100% {color:rgb(41, 177, 36); left:200px; top:0px;}
+}
+
+.rotate-scale-up {
+	-webkit-animation: rotate-scale-up 1.65s linear both;
+	        animation: rotate-scale-up 1.65s linear both;
+}
+
+@-webkit-keyframes rotate-scale-up {
+    0% {
+      -webkit-transform: scale(1) rotateZ(0);
+              transform: scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(2) rotateZ(180deg);
+              transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateZ(360deg);
+              transform: scale(1) rotateZ(360deg);
+    }
+  }
+  @keyframes rotate-scale-up {
+    0% {
+      -webkit-transform: scale(1) rotateZ(0);
+              transform: scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(2) rotateZ(180deg);
+              transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateZ(360deg);
+              transform: scale(1) rotateZ(360deg);
+    }
+  }
+
+  @-webkit-keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+  }
+  @keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+  }
+
+  .web
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s linear infinite;
+  display: inline-block;
+      font-size: 40px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 100% center;
+  }
+}
+  
+
+
+
